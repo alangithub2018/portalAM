@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $vlant = $_POST['v1']; $vanow = $_POST['v2']; $colum = $_POST['v3']; modificaciones::updateClSpt($vlant,$vanow,$colum); ?>

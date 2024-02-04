@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";$vvstin=$_POST['vin'];$vvstfi=$_POST['vfi'];echo consvstxrg($vvstin,$vvstfi);?>

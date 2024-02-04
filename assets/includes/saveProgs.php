@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $dsc = $_POST['x']; $atn = $_POST['y']; $fhInv = $_POST['z']; $cedt = $_POST['w']; altas::sProgs($dsc, $atn, $fhInv, $cedt); ?>

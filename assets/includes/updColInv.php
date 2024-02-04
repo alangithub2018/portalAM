@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $col = strtolower($_POST['co']); $act = $_POST['va']; $new = $_POST['nv']; modificaciones::cngColInv($col, addslashes($act), addslashes($new));  ?>

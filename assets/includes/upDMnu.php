@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $mn = $_POST["m"]; $cn = $_POST["c"]; $pr = $_POST["p"]; $fc = $_POST["f"]; $hd = $_POST["h"]; echo modificaciones::UpdMnSys($mn, $cn, $pr, $fc, $hd);?>

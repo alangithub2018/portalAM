@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; $vidmtv = $_POST['upim']; $vtxtmtv = $_POST['vtupd']; echo trim(modificaciones::actualizamtvvcs($vidmtv, $vtxtmtv)); ?>

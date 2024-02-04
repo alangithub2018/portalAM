@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $id_csflslvc = $_POST['idslv']; echo cnflslvc($id_csflslvc); ?>

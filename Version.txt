@@ -1,0 +1,6 @@
+
+Se agrega dll pdo y sqlsvr --- Se quita porque no funciono y se habilita PDO odbc
+Se incluyen Clases Nuevas en Funciones de Base de Datos Sqi y SqlSrv
+Se incluye la Funcionalidad de Cumpleaños
+
+php v5.4.16 ts

@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; echo imprimetabla();?>

@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $buscatmn = $_POST['cad']; echo printcatmenus($buscatmn); ?>

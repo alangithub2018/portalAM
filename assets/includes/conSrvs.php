@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $pc = $_POST['eq']; $ty = $_POST['tp']; $hist = $_POST['hs']; $datSrv = consultas::getServices($ty, $pc, $hist); echo $datSrv; ?>

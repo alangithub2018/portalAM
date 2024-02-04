@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $nombremn=$_POST['nm']; $descripmn=$_POST['dm']; echo trim(insertacategoriamn($nombremn,$descripmn)); ?>

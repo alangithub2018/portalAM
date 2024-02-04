@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";if(isset($_POST['inic']) and !empty($_POST['inic']) and isset($_POST['fina']) and !empty($_POST['fina'])){$fechain=$_POST['inic'];$fechafin=$_POST['fina'];echo menusem(0,$fechain,$fechafin);}?>

@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";if($_POST['bid'] and !empty($_POST['bid'])){$cons=$_POST['bid'];echo llenatablacrgmn($cons);}?>

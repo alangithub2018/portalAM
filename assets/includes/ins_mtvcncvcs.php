@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; $motiv = $_POST['mc']; echo insmtvcanvcs($motiv); ?>

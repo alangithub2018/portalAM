@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $fl1 = $_POST['d']; $tfil = $_POST['t']; $datosFil = consultas::retrDataInv($fl1, $tfil); echo $datosFil; ?>

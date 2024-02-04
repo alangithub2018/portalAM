@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $str_lock = $_POST['dy']; echo blqdtvacs($str_lock); ?>

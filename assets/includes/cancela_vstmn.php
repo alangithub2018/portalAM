@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";$elimmnvst=$_POST['g'];echo cancelamnvst($elimmnvst);?>

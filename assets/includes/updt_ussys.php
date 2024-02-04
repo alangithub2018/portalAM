@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; $idnw = $_POST['ied']; $nclv = $_POST['clv']; $neml = $_POST['ema']; $nest = $_POST['sts']; echo actusersystem($idnw, $nclv, $neml, $nest); ?>

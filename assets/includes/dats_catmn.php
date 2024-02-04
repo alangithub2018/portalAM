@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";if(isset($_POST['mnid'])){$datasend=$_POST['mnid'];echo retorndscmn($datasend);}?>

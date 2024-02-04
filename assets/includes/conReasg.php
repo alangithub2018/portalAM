@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $idpc = $_POST['v1']; $dppc = $_POST['v2']; $arpc = $_POST['v3']; $aspc = $_POST['v4']; $data = consultas::vldRsgInv($idpc, utf8_decode($dppc), utf8_decode($arpc), utf8_decode($aspc)); echo $data; ?>

@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $tspt = $_POST['ia']; $qvlid = $_POST['q']; $trns = $_POST['t']; modificaciones::finSpt($tspt,$trns,$qvlid); ?>

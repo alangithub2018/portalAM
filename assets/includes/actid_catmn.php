@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";if(isset($_POST['actid']) and isset($_POST['nmct']) and isset($_POST['dsc'])){$idactmn=$_POST['actid'];$namect=$_POST['nmct'];$desct=$_POST['dsc'];echo actctmn($idactmn,$namect,$desct);}?>

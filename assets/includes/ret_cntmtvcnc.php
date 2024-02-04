@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; if(isset($_POST['eim'])){ $datid = $_POST['eim']; echo consultas::retdsmtv($datid); } ?>

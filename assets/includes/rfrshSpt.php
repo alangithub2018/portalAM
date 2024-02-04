@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $lty = $_POST['ts']; $tupd = $_POST['tup']; if($lty=='false'){ echo consultas::getSpt($_SESSION['nameuser'],false,true,$tupd,'','','',false,false,'',''); }else{ echo consultas::getSpt('',true,false,$tupd,'','','',false,false,'',''); } ?>

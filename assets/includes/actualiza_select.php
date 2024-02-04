@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; echo '<option value="0">Seleccione el dia</option>'; echo imprimeselect(); echo "*"; echo '<option value="0">Agregar mas...</option>'; echo imprimeselectadd(); ?>

@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $columna = $_POST['cs']; $dato = $_POST['da']; consultas::getInventario(trim($columna),trim($dato), true, ''); ?>

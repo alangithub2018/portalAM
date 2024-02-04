@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";if($_SESSION['gpouser']!='3' and $_SESSION['gpouser']!='0'){echo prntmenususer();}?>

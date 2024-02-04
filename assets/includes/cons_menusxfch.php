@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; $idmenuxfch = trim($_POST['mf']); echo trim(llenaoptionsmnucrg($idmenuxfch)); ?>

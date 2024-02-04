@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $sels = $_POST['sl']; $ser = $_POST['se']; $mon = $_POST['mn']; $asig = $_POST['as']; $fch = $_POST['fh']; $typo = $_POST['ty']; $ij = $_POST['if']; altas::insertInv($sels, $ser, $mon, $asig, $fch, $typo, $ij); ?>

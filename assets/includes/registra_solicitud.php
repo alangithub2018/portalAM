@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";$vacssol=$_POST['fchsol'];$dtsal=$_POST['salvac'];$rgdt=$_POST['regvac'];$persel=$_POST['period'];$seldesc=$_POST['mdesc'];echo altas::insertasolicitud($persel,$vacssol,$dtsal,$rgdt,$seldesc);?>

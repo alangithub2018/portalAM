@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";if(isset($_POST['evid']) and !empty($_POST['evid'])){$envdel=$_POST['evid'];echo eliminamrcns($envdel);}?>

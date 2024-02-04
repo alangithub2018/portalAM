@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; $idcanslvc = $_POST['upc']; $mtvcan = $_POST['mtv']; echo canslvacs($idcanslvc, $mtvcan); ?>

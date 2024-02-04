@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $eq = $_POST['pc']; $ti = $_POST['ty']; $des = $_POST['dc']; $fchSrv = $_POST['fe']; $aten = $_POST['am']; if($aten=='AUTOMATIC'){$aten=utf8_decode($_SESSION['nameuser']);} altas::insertServ($eq, $ti, utf8_decode($des), $fchSrv, utf8_decode($aten)); ?>

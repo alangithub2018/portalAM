@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";$vidmnucoc=$_POST['idmn'];$vidusrcoc=$_POST['idus'];echo delusrmnucoc($vidmnucoc,$vidusrcoc);?>

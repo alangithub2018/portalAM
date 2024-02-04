@@ -1,0 +1,1 @@
+<?php include_once "funciones.php";$idmn=$_POST['mi'];$idusr=$_POST['iu'];echo coccrgmnuusr($idmn,$idusr);?>

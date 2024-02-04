@@ -1,0 +1,1 @@
+<?php   include_once "funciones.php"; $mydates=$_POST['selts']; $myperiod=$_POST['persl']; $mybacks=$_POST['regrsys']; echo trim(revisa_duplvacs($mydates,$myperiod,$mybacks)); ?>

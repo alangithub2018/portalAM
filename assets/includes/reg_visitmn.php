@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $cantmn = $_POST['cn']; $idmvisit = $_POST['idmv']; $namvt = $_POST['nmv']; echo regconmnvisit($cantmn, $idmvisit, $namvt); ?>

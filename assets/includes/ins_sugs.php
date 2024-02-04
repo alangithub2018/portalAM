@@ -1,0 +1,1 @@
+<?php include_once "funciones.php"; $titulo=$_POST['t']; $sugerencias=$_POST['s']; echo registrasugs($titulo,$sugerencias, $_SESSION['idloguser']); ?>

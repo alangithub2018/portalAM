@@ -1,0 +1,660 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix{
+    margin-bottom: 9px;
+}
+.table{
+    margin-bottom: 8px;
+}
+.front-invoice-wrapper{
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.front-invoice-top{
+    background-color: #5abc27;
+    padding: 40px 60px;
+}
+.front-invoice-top-left h2, .front-invoice-top-right h2{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.front-invoice-top-left h3, .front-invoice-top-right h3{
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.front-invoice-top-left h5, .front-invoice-top-right h5{
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.front-invoice-top-right{
+   text-align: right;
+}
+
+.service-name{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.date{
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+}
+
+.front-invoice-bottom{
+    background-color: #ffffff;
+    padding: 40px 60px;
+    position: relative;
+}
+.borderless td, .borderless th {
+    border: none !important;
+}
+.custom-table td{
+    font-size: 13px;
+    padding: 6px !important;
+    font-weight: 500;
+}
+.description{
+    line-height: 1.6;
+}
+.specs{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.wrapper{
+    margin-top: 44px;
+    padding: 0px 0px 18px 0px;
+    background-color: rgba(82,86,89,0.83);
+}
+.invoice-wrapper{
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.invoice-top{
+    background:#ffffff;
+    padding: 60px 35px 35px 35px; /*antes 60px 60px 30px;*/
+}
+.invoice-top-left{
+    margin-top: 0;
+}
+.invoice-top-left h2, .invoice-top-right h2{	
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.invoice-top-left h3, .invoice-top-right h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.invoice-top-left h5, .invoice-top-right h5{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.invoice-top-left h4{
+    margin-top: 40px;
+    font-size: 22px;
+}
+.invoice-top-left h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.invoice-top-right h2, .invoice-top-right h3, .invoice-top-right h5{
+    text-align: right;
+}
+
+.logo-wrapper{ overflow: auto; }
+
+.task-table-wrapper{
+    margin-top: -14%;
+}
+.task-table-wrapper .table > thead > tr> th{
+    border: none;
+    padding-left: 0;
+    /*padding-bottom: 30px;*/
+}
+.task-table-wrapper .table> tbody> tr:first-child > td{
+    border-top: 0;
+}
+.task-table-wrapper .table> tbody> tr> td{
+    padding-top: 10pt;
+    padding-left: 0;
+}
+.task-table-wrapper .table> tbody> tr> td> h4{
+    margin-top: 0;
+}
+.task-table-wrapper .table tbody .desc{
+    width:60%;
+}
+.table>tbody>tr>td{
+    padding: 1pt;
+}
+.desc h3{
+    margin-top: 0;
+    letter-spacing: 0.055rem;
+    font-size: 15px;
+}
+.desc h5{
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.invoice-bottom-total .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.invoice-bottom-total .tax-box, .invoice-bottom-total .add-box, .invoice-bottom-total .sub-total-box{
+    display: inline-block;
+    margin-right: 1pt;
+    padding: 5pt;
+}
+.total-box{
+    background-color: #EEEEEE; /*#5abc27;*/
+    padding: 10pt;
+    margin-top: 5pt;
+    border-radius: 10px; /*Este se acaba de agregar*/
+}
+.total-box span{
+    margin-top: 0;
+    color: #000;
+    text-align: justify;
+}
+.total-box h3{
+    margin-bottom: 0;
+    color: #ffffff;
+    text-align: right;
+}
+#membretada{
+    margin-top:-20pt; 
+    margin-bottom: 10pt;
+}
+#reiterar{
+    margin-top:10pt;
+}
+#enfasis{
+    font-weight:bolder; 
+    font-size: 0.95em;
+}
+#leym{
+    font-size: 1em;
+    font-weight: 700;
+}
+#screenLey{
+    text-align: justify;
+}
+#mTImpresion{
+   margin-top:-33pt; /*antes -10pt*/
+}
+.invoice-bottom{
+    background-color: #ffffff;
+    padding: 47px 35px 40px 35px; /*antes 40px 60px;*/
+    position: relative;
+}
+#fsolic, #ndias{
+    text-align:center;
+}
+.invoice-bottom-total{
+    background-color: #fafafa;
+    overflow: auto;
+    margin-top: 1pt;
+}
+.divider{
+    margin-top: 50pt;
+    margin-bottom: 5pt;
+}
+.contenedor{
+  width:90px;
+  height:240px;
+  position:fixed;
+  right:10px;
+  bottom:55px;
+}
+.botonF1{
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:#F44336;
+  right:0;
+  bottom:0;
+  position:absolute;
+  margin-right:16px;
+  margin-bottom:16px;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:36px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;  
+}
+span{
+  transition:.5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+}
+#printM:hover span{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -moz-transform:rotate(360deg); /* Firefox */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -o-transform:rotate(360deg); /* Opera */
+}
+.botonF1:active{
+  transform:scale(1.1);
+}
+.respuestas{
+    font-size: 0.9em;
+    font-family: Arial Narrow;
+    font-weight: 400;
+    padding-right: 35pt;
+    padding-top: 0.3em;
+    letter-spacing: 1.22pt;
+    text-align: left;
+}
+.sign{
+    border-color: #000; border-top: 1pt solid #000;
+    margin-top: 50pt;
+    margin-right: 16.5pt;
+    margin-left: 8pt;
+    padding-left: 8pt;
+    padding-right: 5.5pt;
+    max-width: 115.5pt;
+}
+.bottom-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 26px;
+    background-color: #009947;
+}
+@media screen{
+    #Politicas{
+        line-height: 24px;
+    }
+    .invoice-bottom-total{
+        margin-top: 1pt;
+        margin-bottom: 2pt;
+    }
+}
+/*Firefox*/
+@-moz-document url-prefix() { 
+    @media print and (color){
+         * {
+            -webkit-print-color-adjust: exact; 
+            print-color-adjust: exact;
+        }
+        #ttbPF, #ttbPM{
+            background-color: #EEEEEE !important;
+            padding: 1em !important;
+            color: #000 !important;
+            margin-bottom: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            color-adjust: exact;
+        }
+        .back, .invoice-wrapper, body{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            height: 279mm;
+        }
+        #bbM{
+            padding-bottom: 0mm;
+            margin-bottom: 0mm;
+            bottom: -75.2mm;
+            left: -13.5mm;
+            width: 216mm;
+            height: 6.879167mm;
+            background-color: #009947 !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            color-adjust: exact;
+        }
+        #mTImpresion{
+            margin-top: -10pt;
+        }
+        .invoice-top{
+            padding: 60px 60px 30px 60px;
+        }
+        #sidebar, aside, .header, footer, .footer, .contenedor{
+            display: none;
+        }
+        section.back{
+            margin-top: -75pt;
+            margin-left: -335pt;
+            margin-right: -40pt;
+            margin-bottom: 16pt;
+        }
+        .invoice-bottom{
+            background-color: #ffffff;
+            padding:0;
+            margin-bottom: 0;
+            width: 536pt;
+            margin-top: 72pt;
+            margin-left: 45pt;
+        }
+        .invoice-top-left{
+            width: 536pt;
+            text-align: justify;
+        }
+        #screenLey{
+            text-align: justify;
+            width: 536pt;
+        }
+        #Politicas{
+            margin-top: 20pt;
+            display: block;
+            text-align: justify;
+        }
+        .sign{
+            margin-right: 61pt;
+            margin-bottom: 16pt;
+        }
+        #firmas{
+            margin-bottom: 35pt;
+        }
+    }
+    @media screen{
+        #bbP{
+            padding-bottom: 0mm;
+            margin-bottom: 0mm;
+            bottom: 0mm;
+            left: -13.5mm;
+            width: 216mm;
+            height: 6.879167mm;
+            background-color: #009947 !important;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+}
+/*Firefox*/
+/*Opera*/
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    @page {
+        size: letter;
+    }
+ }
+/*Opera*/
+/*Google Chrome*/
+@media not screen and (-webkit-min-device-pixel-ratio:0) {
+    @page {
+        size: 216mm 279mm; /* portrait */
+    }
+    section.back{
+        margin-top: -28pt;
+        margin-left: -98pt;
+        margin-right: -40pt;
+    }
+    .sign{
+        margin-right: 61pt;
+        margin-top: 80pt;
+    }
+    .invoice-bottom{
+	background-color: #ffffff;
+	padding:0;
+        width: 539pt;
+        margin-top: 90pt;
+        margin-left: 3pt;
+        margin-bottom: 0;
+    }
+    .invoice-top-left{
+        width: 539pt;
+        text-align: justify;
+    }
+    #screenLey{
+        text-align: justify;
+        width: 539pt;
+    }
+    .divider{
+        margin-top: 100pt;
+        margin-bottom: 5pt;
+    }
+    #sidebar, aside, .header, footer, .footer, .contenedor{
+        display: none;
+    }
+    #mTImpresion{
+        margin-top:-5pt;
+     }
+    #Politicas{
+        margin-top: 36pt;
+        display: block;
+        text-align: justify;
+    }
+    #membretada{
+        margin-top:-25pt;
+        margin-bottom: 15pt;
+    }
+    .invoice-top{
+       padding: 0;
+       margin: 0;
+    }
+    .invoice-wrapper{
+        width: 1600pt;
+    }
+    #fsolic, #ndias{
+        text-align:center;
+    }
+    .invoice-bottom-total{
+        margin-top: 5pt;
+    }
+    .invoice-bottom-total .tax-box, .invoice-bottom-total .add-box, .invoice-bottom-total .sub-total-box{
+        margin-right: 1pt;
+        padding: 5pt;
+    }
+}
+/*Google Chrome*/
+/*Internet Explorer*/
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active){
+    .wrapper{
+        padding: 0px 0px 40px 0px;
+        margin-bottom: 26px;
+    }
+}
+@media not screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+    @page {
+        size: 216mm 279mm;
+        margin:0 -6cm;
+    }
+    #mTImpresion{
+        margin-top: -10pt;
+    }
+    .invoice-top{
+        padding: 60px 60px 30px 60px;
+    }
+    section.back{
+        margin-top: -70pt;
+        margin-left: -380pt;
+        margin-right: -80pt;
+    }
+    .invoice-wrapper{
+        width: 1600pt;
+    }
+    .mTImpresion{
+        margin-top:-5pt;
+    }
+    .divider{
+        margin-top: 100pt;
+        margin-bottom: 5pt;
+    }
+    #Politicas{
+        margin-top: 20pt;
+        display: block;
+        text-align: justify;
+    }
+    .invoice-top{
+        max-width: 1600pt;
+        margin-top: 10pt;
+    }
+    #membretada{
+        margin-top:-25pt;
+        margin-bottom: 15pt;
+    }
+    .invoice-top-left{
+        width: 539pt;
+        text-align: justify;
+        margin-top: 10pt;
+    }
+    #screenLey{
+        text-align: justify;
+        width: 539pt;
+    }
+    .invoice-bottom{
+	background-color: #ffffff;
+	padding:0;
+        width: 539pt;
+        margin-top: 65pt;
+        margin-left: 45pt;
+        margin-bottom: 0;
+    }
+    .invoice-bottom-total{
+        margin: 0 auto;
+    }
+   #sidebar, aside, .header, footer, .footer, .contenedor{
+        display: none;
+   }
+   .sign{
+        margin-right: 61pt;
+        margin-top: 75pt;
+    }
+}
+/*IE11 and above*/
+/*Safari*/
+@media not screen and (-webkit-min-device-pixel-ratio: 1){
+    @page {
+        size: 216mm 279mm;
+        margin: 5mm 5mm 5mm 5mm;
+    }
+    ::i-block-chrome,.invoice-bottom {
+        width: 512pt;
+        margin-left: 69pt;
+    }
+    ::i-block-chrome,#reiterar {
+        margin-top: 10pt;
+        padding-left: 20pt;
+    }
+    ::i-block-chrome,#screenLey {
+        padding-left: 19.5pt;
+        width: 512pt;
+    }
+    ::i-block-chrome,.invoice-top-left {
+        padding-left: 20pt;
+        width: 511pt;
+    }
+    ::i-block-chrome,#mTImpresion {
+        margin-top: -45pt;
+    }
+    ::i-block-chrome,.invoice-top {
+        margin-top: -575pt;
+        padding: 0pt 15pt 30pt 60pt;
+        width: 512pt;
+    }
+    ::i-block-chrome,.sign{
+        margin-right: 50pt;
+        margin-top: 68pt;
+    }
+    ::i-block-chrome, #container {
+        margin-left: -9pt;
+        height: 600pt;
+    }
+    ::i-block-chrome, .bottom-bar{
+        display: none;
+    }
+    ::i-block-chrome, body, html{
+        height: 600pt;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+    ::i-block-chrome, body {
+        width: 1600px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        height: 100%;
+    }
+    ::i-block-chrome,#container {
+        height: 100%;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    ::i-block-chrome, #sidebar, aside, .header, footer, .footer, .contenedor {
+        display: block;
+    }
+    ::i-block-chrome,.invoice-bottom {
+        background-color: white;
+        padding: 90px 50px 35px 46px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 555pt;
+    }
+    ::i-block-chrome,.invoice-top {
+        background: white;
+        padding: 45px 40px 30px 10px;
+    }
+    ::i-block-chrome, section.back {
+        margin-left: 50pt;
+        margin-top: 10pt;
+        margin-bottom: 10pt;
+        width:900pt;
+    }
+    ::i-block-chrome,.invoice-wrapper {
+        width: 740px;
+        max-width: 740px;
+    }
+    ::i-block-chrome,#mTImpresion {
+        margin-top: -10pt;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    ::i-block-chrome,#screenLey {
+        text-align: justify;
+        padding-left: 19px;
+        width: 512pt;
+    }
+    ::i-block-chrome,.invoice-top-left {
+        text-align: justify;
+        padding-left: 21px;
+        width: 505pt;
+    }
+    ::i-block-chrome,#Politicas {
+        margin-top: 15px;
+        display: block;
+        text-align: justify;
+        margin-left: 9px;
+        padding-left: 5px;
+    }
+    ::i-block-chrome,#reiterar {
+        margin-top: 10pt;
+        padding-left: 34px;
+    }
+    ::i-block-chrome,.sign{
+        margin-right: 43pt;
+        margin-top: 75pt;
+    }
+}
+@media not screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){
+    @media{
+        _::-webkit-full-page-media, _:future, :root section.back{
+            margin-left: -243pt;
+            margin-top: -50pt;
+            padding-right: 5pt;
+        }
+    }
+}
+/*Safari*/
